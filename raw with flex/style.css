@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: teal; */
+}
+header {
+  height: 70px;
+  width: 100%;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+}
+.hlogo {
+  background-color: red;
+  flex-basis: 100px;
+}
+
+.htxt {
+  background-color: violet;
+  flex-basis: 100px;
+}
+.hseach {
+  background-color: blanchedalmond;
+  flex-basis: 200px;
+}
+.hbtn {
+  background-color: blanchedalmond;
+  flex-basis: 100px;
+}
+
+.R1 {
+  margin: 0 auto;
+}
+.wid85 {
+  width: 85%;
+}
+
+.R2 {
+  margin: auto;
+  overflow: hidden;
+
+  /* text-wrap: nowrap; */
+}
+.listScroll {
+  text-wrap: nowrap;
+  overflow-x: scroll;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+.R3 {
+  margin: auto;
+  overflow: hidden;
+
+  /* text-wrap: nowrap; */
+}

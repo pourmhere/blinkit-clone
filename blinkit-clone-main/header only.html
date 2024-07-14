@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blinkit Header</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 20px;
+      background-color: white;
+      border-bottom: 1px solid #ddd;
+      height: 10vh;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .blink {
+      color: #ffcc00;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .it {
+      color: #66cc33;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .delivery-info {
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .location {
+      font-size: 12px;
+      color: gray;
+    }
+
+    .search-bar {
+      width: 40%;
+      margin: 0 20px;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      height: 30px;
+    }
+
+    .login-cart {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .login-cart a {
+      text-decoration: none;
+      color: black;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    .cart {
+      background-color: #66cc33;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <span class="blink">blink</span><span class="it">it</span>
+      </div>
+      <div class="delivery-info">
+        Delivery in 8 minutes<br />
+        <span class="location">Gurugram, Haryana, India</span>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder='Search "chips"' />
+      </div>
+      <div class="login-cart">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="cart">My Cart</a>
+      </div>
+    </div>
+  </body>
+</html>
